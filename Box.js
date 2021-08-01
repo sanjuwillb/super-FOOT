@@ -21,8 +21,8 @@ class Box {
     rotate(angle);
     rectMode(CENTER);
     strokeWeight(4);
-    stroke("black");
-    fill("red");
+    stroke("steelblue");
+    fill("springgreen");
     rect(0, 0, this.width, this.height);
     pop();
   }
