@@ -11,6 +11,7 @@ class Ground {
     display(){
       var pos =this.body.position;
       rectMode(CENTER);
+      strokeWeight(4)
       stroke("springgreen")
       fill("steelblue");
       rect(pos.x, pos.y, this.width, this.height);
